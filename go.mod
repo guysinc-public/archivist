@@ -1,9 +1,9 @@
 module github.com/Guys-Inc-Public/archivist
 
-go 1.24.0
+go 1.25
 
 require (
-	github.com/klauspost/compress v1.19.2
+	github.com/klauspost/compress v1.20.0
 	github.com/ulikunitz/xz v0.5.16
 )
 
