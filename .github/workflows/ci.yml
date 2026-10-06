@@ -3,8 +3,9 @@ name: CI
 on:
   push:
     branches: [main]
+  # No base-branch filter: a pull request opened on another pull request's branch (a stack layer,
+  # ADR 0021 in Branding-Standards) is checked like one on main.
   pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -159,3 +160,20 @@ jobs:
         with:
           args: --no-progress --exclude-path .github/wiki './**/*.md'
           fail: true
+
+  # The one check every repository exposes (ADRs 0020, 0021): the organisation ruleset requires a check
+  # named "check". Needs every job above; fails if any failed or was cancelled, passes over skipped ones.
+  check:
+    # always(): without it a failed or cancelled job above would skip this one, and a skipped required check
+    # counts as passing. No draft guard: the jobs above run on drafts, so this one reports what they did.
+    if: always()
+    needs: [build, lint, cross-compile, round-trip, docs]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Every needed job passed
+        env:
+          RESULTS: ${{ toJSON(needs.*.result) }}
+        run: |
+          echo "$RESULTS"
+          jq -e 'all(.[]; . == "success" or . == "skipped")' <<<"$RESULTS"
