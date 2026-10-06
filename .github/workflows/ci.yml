@@ -164,7 +164,9 @@ jobs:
   # The one check every repository exposes (ADRs 0020, 0021): the organisation ruleset requires a check
   # named "check". Needs every job above; fails if any failed or was cancelled, passes over skipped ones.
   check:
-    if: ${{ always() && !github.event.pull_request.draft }}
+    # always(): without it a failed or cancelled job above would skip this one, and a skipped required check
+    # counts as passing. No draft guard: the jobs above run on drafts, so this one reports what they did.
+    if: always()
     needs: [build, lint, cross-compile, round-trip, docs]
     runs-on: ubuntu-latest
     timeout-minutes: 10
