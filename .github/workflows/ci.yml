@@ -3,8 +3,9 @@ name: CI
 on:
   push:
     branches: [main]
+  # No base-branch filter: a pull request opened on another pull request's
+  # branch - one layer of a stack - is built and tested like one on main.
   pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
