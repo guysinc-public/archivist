@@ -3,8 +3,9 @@ name: CodeQL
 on:
   push:
     branches: [main]
+  # No base-branch filter, so a layer of a stack is analysed like a pull
+  # request on main.
   pull_request:
-    branches: [main]
   schedule:
     # Weekly, so a newly published query still finds an idle repository.
     - cron: '31 4 * * 1'
