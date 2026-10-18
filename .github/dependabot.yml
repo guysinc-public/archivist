@@ -12,6 +12,11 @@ updates:
     groups:
       go-minor-and-patch:
         update-types: ["minor", "patch"]
+    ignore:
+      # go-crypto v1.5 raises the go directive to 1.25; archivist stays on Debian
+      # stable's Go 1.24 (#21). Lift this when Debian stable ships Go 1.25.
+      - dependency-name: "github.com/ProtonMail/go-crypto"
+        versions: [">=1.5.0"]
 
   - package-ecosystem: github-actions
     directory: /
