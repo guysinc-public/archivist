@@ -1,4 +1,4 @@
-<img src="docs/assets/readme-header.svg" alt="Guys Inc" width="100%">
+<img src="docs/assets/readme-header.svg" alt="archivist · guysinc-public" width="100%">
 
 # archivist
 
