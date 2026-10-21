@@ -11,8 +11,8 @@
 Download a signed release archive:
 
 ```console
-$ curl -fsSLO https://github.com/Guys-Inc-Public/archivist/releases/latest/download/archivist_linux_amd64.tar.gz
-$ curl -fsSLO https://github.com/Guys-Inc-Public/archivist/releases/latest/download/checksums.txt
+$ curl -fsSLO https://github.com/guysinc-public/archivist/releases/latest/download/archivist_linux_amd64.tar.gz
+$ curl -fsSLO https://github.com/guysinc-public/archivist/releases/latest/download/checksums.txt
 $ sha256sum --check --ignore-missing checksums.txt
 $ tar -xzf archivist_linux_amd64.tar.gz archivist
 $ sudo install -m 0755 archivist /usr/local/bin/
@@ -26,6 +26,11 @@ Or, if you have Go:
 ```console
 $ go install github.com/Guys-Inc-Public/archivist/cmd/archivist@latest
 ```
+
+The Go module path still carries the organisation the repository was created
+in, `Guys-Inc-Public`; GitHub redirects it here. Use it exactly as written:
+`go install github.com/guysinc-public/archivist/...` fails, because the module
+declares the old path.
 
 ## Configure
 
@@ -96,7 +101,7 @@ with the AWS CLI works here.
 ## In CI
 
 ```yaml
-- uses: Guys-Inc-Public/archivist@v1
+- uses: guysinc-public/archivist@v1
   with:
     packages: ./dist
     config: archivist.yml

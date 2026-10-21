@@ -8,15 +8,15 @@ This file covers what is specific to *this* repository.
 
 | You have | Open |
 |---|---|
-| A reproducible defect | an [Issue](https://github.com/Guys-Inc-Public/archivist/issues) |
-| A question, or an idea that isn't a defect | a [Discussion](https://github.com/Guys-Inc-Public/archivist/discussions) |
+| A reproducible defect | an [Issue](https://github.com/guysinc-public/archivist/issues) |
+| A question, or an idea that isn't a defect | a [Discussion](https://github.com/guysinc-public/archivist/discussions) |
 | A security vulnerability | a private advisory — see [SECURITY.md](./SECURITY.md) |
 | A change you've already written | a Pull Request |
 
 ## Development
 
 ```console
-$ git clone https://github.com/Guys-Inc-Public/archivist.git
+$ git clone https://github.com/guysinc-public/archivist.git
 $ cd archivist
 $ make build        # ./bin/archivist
 $ make test

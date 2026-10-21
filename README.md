@@ -1,4 +1,4 @@
-<img src="docs/assets/readme-header.svg" alt="archivist · guysinc-public" width="100%">
+<img src="docs/assets/readme-header.svg" alt="guysinc-public · archivist: Turn a directory of .deb files into a signed, verifiable apt repository on your own domain. Single static binary, S3-compatible storage, no SaaS." width="100%">
 
 # archivist
 
@@ -14,6 +14,18 @@ Turn a directory of .deb files into a signed, verifiable apt repository on your 
 > are still the design target and exit `2`. Track progress against
 > [the roadmap](./docs/Roadmap.md). Nothing here is stable until `v0.1.0` is
 > tagged.
+
+## Quickstart
+
+```console
+$ git clone https://github.com/guysinc-public/archivist.git && cd archivist
+$ make build && ./bin/archivist --help
+```
+
+That needs Go (the version in [`go.mod`](./go.mod) or newer).
+[Getting Started](./docs/Getting-Started.md) takes it from there: write
+`archivist.yml`, build a signed repository from a directory of `.deb` files, and
+point `apt` at it.
 
 ## Why
 

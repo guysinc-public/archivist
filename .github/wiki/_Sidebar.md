@@ -15,6 +15,6 @@
 
 ### Elsewhere
 
-- [Repository](https://github.com/Guys-Inc-Public/archivist)
-- [Discussions](https://github.com/Guys-Inc-Public/archivist/discussions)
-- [Issues](https://github.com/Guys-Inc-Public/archivist/issues)
+- [Repository](https://github.com/guysinc-public/archivist)
+- [Discussions](https://github.com/guysinc-public/archivist/discussions)
+- [Issues](https://github.com/guysinc-public/archivist/issues)
