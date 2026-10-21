@@ -43,14 +43,14 @@ pull request, CI builds packages with `dpkg-deb`, generates a signing key with
 `gpg`, has `archivist` build and sign a repository, and installs from it with a
 real `apt` on Debian stable — then breaks the index checksum and the signature
 in turn and confirms `apt` refuses both. It is
-[`script/round-trip.sh`](https://github.com/Guys-Inc-Public/archivist/blob/main/script/round-trip.sh),
+[`script/round-trip.sh`](https://github.com/guysinc-public/archivist/blob/main/script/round-trip.sh),
 and `make round-trip` runs the same thing locally.
 
 Next is M2, which is the same tree in a bucket.
 
 ## Open questions
 
-Tracked in [Discussions](https://github.com/Guys-Inc-Public/archivist/discussions),
+Tracked in [Discussions](https://github.com/guysinc-public/archivist/discussions),
 not here, so that answers arrive with their reasoning attached. The ones that
 were open at kickoff and are now settled have become
 [decisions](decisions/README.md).

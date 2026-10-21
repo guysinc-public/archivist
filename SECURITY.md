@@ -5,7 +5,7 @@ applies. This file adds what is specific to `archivist`.
 
 ## Reporting a vulnerability
 
-Use [private vulnerability reporting](https://github.com/Guys-Inc-Public/archivist/security/advisories/new)
+Use [private vulnerability reporting](https://github.com/guysinc-public/archivist/security/advisories/new)
 on this repository, or email **CJ@guysinc.org**. Please do not open a public issue.
 
 ## Why this project warrants extra care

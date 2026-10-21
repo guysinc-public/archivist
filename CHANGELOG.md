@@ -66,5 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/Repository-Layout.md` is drawn relative to the repository root rather
   than a bucket root, records the metadata sidecars, and no longer shows an
   `index.html` that will never be written.
+- The repository lives at `guysinc-public/archivist`. Release downloads, the
+  Action reference, `gh attestation verify --repo`, and every issue, discussion
+  and wiki link point there. The Go module path is unchanged.
 
-[Unreleased]: https://github.com/Guys-Inc-Public/archivist/commits/main
+[Unreleased]: https://github.com/guysinc-public/archivist/commits/main

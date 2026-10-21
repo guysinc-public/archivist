@@ -72,7 +72,7 @@ specific commit. The signing identity is minted per run and discarded, so there
 is no key to store or rotate:
 
 ```console
-$ gh attestation verify archivist_0.1.0_linux_amd64.tar.gz --repo Guys-Inc-Public/archivist
+$ gh attestation verify archivist_0.1.0_linux_amd64.tar.gz --repo guysinc-public/archivist
 ```
 
 **Signature** — `checksums.txt` is signed by the Guys Inc release subkey, and it
