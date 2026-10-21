@@ -1,4 +1,4 @@
-module github.com/Guys-Inc-Public/archivist
+module github.com/guysinc-public/archivist
 
 go 1.24.0
 

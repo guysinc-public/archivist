@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
-	"github.com/Guys-Inc-Public/archivist/internal/debtest"
+	"github.com/guysinc-public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/debtest"
 )
 
 // writeFixture builds a package in a temporary directory and returns its path.

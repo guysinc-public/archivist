@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Guys-Inc-Public/archivist/internal/sign"
+	"github.com/guysinc-public/archivist/internal/sign"
 )
 
 // The certify guard is tested elsewhere against a key this package builds

@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Guys-Inc-Public/archivist/internal/config"
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
-	"github.com/Guys-Inc-Public/archivist/internal/repo"
-	"github.com/Guys-Inc-Public/archivist/internal/sign"
+	"github.com/guysinc-public/archivist/internal/config"
+	"github.com/guysinc-public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/repo"
+	"github.com/guysinc-public/archivist/internal/sign"
 )
 
 func build(args []string) error {

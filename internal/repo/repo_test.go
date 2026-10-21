@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Guys-Inc-Public/archivist/internal/config"
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
-	"github.com/Guys-Inc-Public/archivist/internal/debtest"
-	"github.com/Guys-Inc-Public/archivist/internal/repo"
+	"github.com/guysinc-public/archivist/internal/config"
+	"github.com/guysinc-public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/debtest"
+	"github.com/guysinc-public/archivist/internal/repo"
 )
 
 // A fixed timestamp: Release carries a Date, and a test that asserts on bytes

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Guys-Inc-Public/archivist/internal/debtest"
-	"github.com/Guys-Inc-Public/archivist/internal/sign"
+	"github.com/guysinc-public/archivist/internal/debtest"
+	"github.com/guysinc-public/archivist/internal/sign"
 )
 
 const testConfig = `

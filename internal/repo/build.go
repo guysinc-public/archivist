@@ -9,8 +9,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Guys-Inc-Public/archivist/internal/config"
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/config"
+	"github.com/guysinc-public/archivist/internal/deb"
 )
 
 // Options controls repository generation.

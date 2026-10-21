@@ -1,6 +1,6 @@
 # Security Policy
 
-The [organisation security policy](https://github.com/Guys-Inc-Public/.github/blob/main/SECURITY.md)
+The [organisation security policy](https://github.com/guysinc-public/.github/blob/main/SECURITY.md)
 applies. This file adds what is specific to `archivist`.
 
 ## Reporting a vulnerability

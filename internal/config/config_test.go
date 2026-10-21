@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Guys-Inc-Public/archivist/internal/config"
+	"github.com/guysinc-public/archivist/internal/config"
 )
 
 // valid is a complete, correct configuration. Tests derive from it by

@@ -24,13 +24,12 @@ Verify the signature and provenance before you trust it — see
 Or, if you have Go:
 
 ```console
-$ go install github.com/Guys-Inc-Public/archivist/cmd/archivist@latest
+$ go install github.com/guysinc-public/archivist/cmd/archivist@latest
 ```
 
-The Go module path still carries the organisation the repository was created
-in, `Guys-Inc-Public`; GitHub redirects it here. Use it exactly as written:
-`go install github.com/guysinc-public/archivist/...` fails, because the module
-declares the old path.
+The Go module path has moved to `github.com/guysinc-public/archivist`, to match
+where the repository lives. The old path, `github.com/Guys-Inc-Public/archivist`,
+no longer works: Go refuses it, because the module now declares the new one.
 
 ## Configure
 

@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Guys-Inc-Public/archivist/internal/sign"
+	"github.com/guysinc-public/archivist/internal/sign"
 )
 
 // Names of the signature and key files, relative to the repository root. They
