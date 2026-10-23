@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Guys-Inc-Public/archivist/internal/config"
+	"github.com/guysinc-public/archivist/internal/config"
 )
 
 // dateFormat is the form apt expects in Date and Valid-Until: RFC 1123 with a

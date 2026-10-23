@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/deb"
 )
 
 const (

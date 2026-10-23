@@ -11,7 +11,7 @@ import (
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 
-	"github.com/Guys-Inc-Public/archivist/internal/sign"
+	"github.com/guysinc-public/archivist/internal/sign"
 )
 
 // A Release file shaped like the ones internal/repo writes, including the

@@ -39,4 +39,4 @@ formatters:
     - goimports
   settings:
     goimports:
-      local-prefixes: [github.com/Guys-Inc-Public/archivist]
+      local-prefixes: [github.com/guysinc-public/archivist]

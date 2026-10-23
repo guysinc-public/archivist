@@ -68,6 +68,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `index.html` that will never be written.
 - The repository lives at `guysinc-public/archivist`. Release downloads, the
   Action reference, `gh attestation verify --repo`, and every issue, discussion
-  and wiki link point there. The Go module path is unchanged.
+  and wiki link point there.
+- **Breaking:** the Go module path is `github.com/guysinc-public/archivist`.
+  `go install github.com/Guys-Inc-Public/archivist/cmd/archivist@latest` now
+  fails, because Go refuses a module that declares a different path; use
+  `go install github.com/guysinc-public/archivist/cmd/archivist@latest`. No
+  release has been tagged yet, so `v0.1.0` is the first to carry the new path.
+- `CODEOWNERS` names a person rather than a team that no longer exists, and
+  `CONTRIBUTING.md` and `SECURITY.md` link to the organisation-wide files in
+  `guysinc-public/.github`.
 
 [Unreleased]: https://github.com/guysinc-public/archivist/commits/main

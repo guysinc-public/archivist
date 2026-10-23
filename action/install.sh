@@ -6,7 +6,7 @@
 set -euo pipefail
 
 version="${ARCHIVIST_VERSION:-latest}"
-repo="Guys-Inc-Public/archivist"
+repo="guysinc-public/archivist"
 
 case "$(uname -m)" in
   x86_64)          arch="amd64" ;;

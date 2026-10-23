@@ -11,7 +11,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/Guys-Inc-Public/archivist/internal/deb"
+	"github.com/guysinc-public/archivist/internal/deb"
 )
 
 // Overridden at link time by GoReleaser.
@@ -39,7 +39,7 @@ Commands:
   version    Print version information
 
 Run "archivist <command> -h" for the flags a command accepts.
-Documentation: https://github.com/Guys-Inc-Public/archivist/tree/main/docs
+Documentation: https://github.com/guysinc-public/archivist/tree/main/docs
 `
 
 func main() {

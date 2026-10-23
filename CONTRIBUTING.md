@@ -1,7 +1,7 @@
 # Contributing to archivist
 
 Organisation-wide policy — conduct, PR etiquette, commit style — lives in the
-[Guys Inc contribution guide](https://github.com/Guys-Inc-Public/.github/blob/main/CONTRIBUTING.md).
+[Guys Inc contribution guide](https://github.com/guysinc-public/.github/blob/main/CONTRIBUTING.md).
 This file covers what is specific to *this* repository.
 
 ## Where things go

@@ -15,7 +15,7 @@ Installed-Size: 296608
 Depends: libcurl3 | libcurl4, libsecret-1-0, gnome-keyring
 Section: GNOME;GTK;Development
 Priority: extra
-Homepage: https://github.com/Guys-Inc-Public/github-desktop-linux
+Homepage: https://github.com/guysinc-forks/github-desktop-linux
 Description: Simple collaboration from your desktop
  This is the unofficial port of GitHub Desktop for Linux
  .

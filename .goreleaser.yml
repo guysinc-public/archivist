@@ -77,4 +77,4 @@ release:
     sha256sum --check --ignore-missing checksums.txt
     ```
 
-    Key fingerprints and rotation policy: [Signing Keys](https://github.com/Guys-Inc-Public/archivist/wiki/Signing-Keys).
+    Key fingerprints and rotation policy: [Signing Keys](https://github.com/guysinc-public/archivist/wiki/Signing-Keys).
