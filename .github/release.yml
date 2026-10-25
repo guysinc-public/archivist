@@ -2,7 +2,7 @@
 changelog:
   exclude:
     labels: [ignore-for-release]
-    authors: [dependabot, guys-inc-ops]
+    authors: [dependabot, guys-inc-ops, codeonkey]   # the ops bot, CodeOnkey, under its login before and after the app rename
   categories:
     - title: Breaking changes
       labels: [breaking-change]
