@@ -28,6 +28,9 @@
 - name: "needs: decision"
   color: "b05f2c"
   description: Blocked on a maintainer call, not on work
+- name: needs-cj
+  color: "b05f2c"
+  description: Needs CJ's decision or permission; the body says which, in one line
 - name: blocked
   color: "b05f2c"
   description: Blocked on something outside this repository

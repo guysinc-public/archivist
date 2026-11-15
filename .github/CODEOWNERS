@@ -1,13 +1,8 @@
-# Every change requires review from a maintainer.
-*                       @Cam8863
-
-# Security-sensitive surfaces - signing, publishing, and the workflows that hold
-# secrets. Changes here are reviewed with the threat model in mind.
+# No default owner. Clippy reviews every pull request and its approval merges (ADR 0025).
+# CJ is asked only where a change is his to grant: what signs and publishes releases, the security
+# policy and the decision records (Branding-Standards ADR 0047, docs/reference/when-to-involve-cj.md).
+# No ruleset requires a code-owner review, so these lines ask; they do not block.
 /internal/sign/         @Cam8863
 /internal/publish/      @Cam8863
-/.github/workflows/     @Cam8863
-/action/                @Cam8863
 /SECURITY.md            @Cam8863
-
-# Decisions are deliberately hard to change.
 /docs/decisions/        @Cam8863
